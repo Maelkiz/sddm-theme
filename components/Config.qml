@@ -175,8 +175,8 @@ QtObject {
     property string menuAreaPopupsFontFamily: config.stringValue("LoginScreen.MenuArea.Popups/font-family") || "RedHatDisplay" // @desc:Font family of the popups.
     property int menuAreaPopupsBorderSize: config.intValue("LoginScreen.MenuArea.Popups/border-size") // @desc:Size of the border of the popups.
     property color menuAreaPopupsBorderColor: config.stringValue("LoginScreen.MenuArea.Popups/border-color") || "#FFFFFF" // @desc:Color of the border of the popups.
-    property int menuAreaPopupsFontSize: config.intValue("LoginScreen.MenuArea.Popups/font-size") || 11 // @desc:Font size of the popups.
-    property int menuAreaPopupsIconSize: config.intValue("LoginScreen.MenuArea.Popups/icon-size") || 16 // @desc:Size of the icons in the popups.
+    property int menuAreaPopupsFontSize: config.intValue("LoginScreen.MenuArea.Popups/font-size") || 12 // @desc:Font size of the popups.
+    property int menuAreaPopupsIconSize: config.intValue("LoginScreen.MenuArea.Popups/icon-size") || 18 // @desc:Size of the icons in the popups.
 
     // [LoginScreen.MenuArea.Session]
     property bool sessionDisplay: config["LoginScreen.MenuArea.Session/display"] === "false" ? false : true // @desc:Whether or not to display the session button.

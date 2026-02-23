@@ -126,6 +126,7 @@ ColumnLayout {
                 onClicked: {
                     // FIXME: Some clicks seem to be ignored
                     sessionList.currentIndex = index;
+                    selector.close();
                 }
             }
         }

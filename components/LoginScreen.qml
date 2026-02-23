@@ -173,7 +173,7 @@ Item {
                 }
                 width: parent.width
                 icon: Config.getIcon("user-default")
-                placeholder: (textConstants && textConstants.userName) ? textConstants.userName : "Password"
+                placeholder: (textConstants && textConstants.userName) ? textConstants.userName : "Password..."
                 isPassword: false
                 splitBorderRadius: false
                 enabled: loginScreen.state !== "authenticating"
@@ -305,7 +305,7 @@ Item {
                     enabled: loginScreen.state === "normal"
                     visible: loginScreen.userNeedsPassword || !loginScreen.foundUsers
                     icon: Config.getIcon(Config.passwordInputIcon)
-                    placeholder: (textConstants && textConstants.password) ? textConstants.password : "Password"
+                    placeholder: (textConstants && textConstants.password) ? textConstants.password : "Password..."
                     isPassword: true
                     splitBorderRadius: true
                     onAccepted: {
